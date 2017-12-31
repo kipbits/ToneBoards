@@ -8,23 +8,90 @@
 
 /* Begin PBXBuildFile section */
 		0709AB141C24668B003A41F9 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB131C24668B003A41F9 /* ResourcePath.mm */; };
-		0709AB171C24668B003A41F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB161C24668B003A41F9 /* main.cpp */; };
-		0709AB1A1C24668B003A41F9 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB191C24668B003A41F9 /* cute_image.jpg */; };
-		0709AB1C1C24668B003A41F9 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB1B1C24668B003A41F9 /* nice_music.ogg */; };
 		0709AB1E1C24668B003A41F9 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB1D1C24668B003A41F9 /* sansation.ttf */; };
-		0709AB201C24668B003A41F9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB1F1C24668B003A41F9 /* icon.png */; };
+		0709AB281C2466CD003A41F9 /* scrollbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB261C2466CD003A41F9 /* scrollbar.cpp */; };
+		0709AB2A1C2466EF003A41F9 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB291C2466EF003A41F9 /* main.mm */; };
+		0709AB2C1C246717003A41F9 /* TONESv10 in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB2B1C246717003A41F9 /* TONESv10 */; };
+		0709AB2E1C246736003A41F9 /* sConfigFiles in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB2D1C246736003A41F9 /* sConfigFiles */; };
+		0709AB3B1C2467C4003A41F9 /* empty_template_cfg_.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB391C2467C4003A41F9 /* empty_template_cfg_.txt */; };
+		0709AB3C1C2467C4003A41F9 /* graphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB3A1C2467C4003A41F9 /* graphic.png */; };
+		0709AB3E1C2467E1003A41F9 /* numbers_2_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB3D1C2467E1003A41F9 /* numbers_2_notes.txt */; };
+		0709AB401C246875003A41F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709AB3F1C246875003A41F9 /* Images.xcassets */; };
+		070C2C2E1CD7CFBA0055D6FF /* volumefooter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 070C2C2C1CD7CFBA0055D6FF /* volumefooter.cpp */; };
+		07432F1A1C5C1E38000DB10E /* TBiconv1_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 07432F161C5C1E38000DB10E /* TBiconv1_128.png */; };
+		07432F1B1C5C1E38000DB10E /* TBiconv1_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 07432F171C5C1E38000DB10E /* TBiconv1_256.png */; };
+		07432F1C1C5C1E38000DB10E /* TBiconv1_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 07432F181C5C1E38000DB10E /* TBiconv1_512.png */; };
+		07432F1D1C5C1E38000DB10E /* TBiconv1_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 07432F191C5C1E38000DB10E /* TBiconv1_1024.png */; };
+		07972F1E1C77600200AFE018 /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F1C1C77600200AFE018 /* FLAC.framework */; };
+		07972F1F1C77600200AFE018 /* FLAC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F1C1C77600200AFE018 /* FLAC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07972F201C77600200AFE018 /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F1D1C77600200AFE018 /* freetype.framework */; };
+		07972F211C77600200AFE018 /* freetype.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F1D1C77600200AFE018 /* freetype.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07972F251C77601D00AFE018 /* ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F231C77601D00AFE018 /* ogg.framework */; };
+		07972F261C77601D00AFE018 /* ogg.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F231C77601D00AFE018 /* ogg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07972F271C77601E00AFE018 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F241C77601D00AFE018 /* OpenAL.framework */; };
+		07972F281C77601E00AFE018 /* OpenAL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F241C77601D00AFE018 /* OpenAL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07972F2C1C77604700AFE018 /* vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F291C77604700AFE018 /* vorbis.framework */; };
+		07972F2D1C77604700AFE018 /* vorbis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F291C77604700AFE018 /* vorbis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07972F2E1C77604700AFE018 /* vorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F2A1C77604700AFE018 /* vorbisenc.framework */; };
+		07972F2F1C77604700AFE018 /* vorbisenc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F2A1C77604700AFE018 /* vorbisenc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07972F301C77604700AFE018 /* vorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F2B1C77604700AFE018 /* vorbisfile.framework */; };
+		07972F311C77604700AFE018 /* vorbisfile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07972F2B1C77604700AFE018 /* vorbisfile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07D97BB61C629856003ACE0A /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 07D97BB51C629856003ACE0A /* data.txt */; };
+		07D97BB91C65385B003ACE0A /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D97BB81C65385B003ACE0A /* NSFileManager+DirectoryLocations.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07972F221C77600200AFE018 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				07972F211C77600200AFE018 /* freetype.framework in Embed Frameworks */,
+				07972F1F1C77600200AFE018 /* FLAC.framework in Embed Frameworks */,
+				07972F311C77604700AFE018 /* vorbisfile.framework in Embed Frameworks */,
+				07972F2F1C77604700AFE018 /* vorbisenc.framework in Embed Frameworks */,
+				07972F2D1C77604700AFE018 /* vorbis.framework in Embed Frameworks */,
+				07972F261C77601D00AFE018 /* ogg.framework in Embed Frameworks */,
+				07972F281C77601E00AFE018 /* OpenAL.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0709AB0E1C24668B003A41F9 /* ToneBoards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToneBoards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0709AB121C24668B003A41F9 /* ToneBoards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToneBoards-Info.plist"; sourceTree = "<group>"; };
 		0709AB131C24668B003A41F9 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		0709AB151C24668B003A41F9 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		0709AB161C24668B003A41F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0709AB191C24668B003A41F9 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		0709AB1B1C24668B003A41F9 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		0709AB1D1C24668B003A41F9 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		0709AB1F1C24668B003A41F9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0709AB261C2466CD003A41F9 /* scrollbar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scrollbar.cpp; sourceTree = "<group>"; };
+		0709AB271C2466CD003A41F9 /* scrollbar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scrollbar.hpp; sourceTree = "<group>"; };
+		0709AB291C2466EF003A41F9 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		0709AB2B1C246717003A41F9 /* TONESv10 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TONESv10; sourceTree = "<group>"; };
+		0709AB2D1C246736003A41F9 /* sConfigFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sConfigFiles; sourceTree = "<group>"; };
+		0709AB391C2467C4003A41F9 /* empty_template_cfg_.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = empty_template_cfg_.txt; sourceTree = "<group>"; };
+		0709AB3A1C2467C4003A41F9 /* graphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graphic.png; sourceTree = "<group>"; };
+		0709AB3D1C2467E1003A41F9 /* numbers_2_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = numbers_2_notes.txt; sourceTree = "<group>"; };
+		0709AB3F1C246875003A41F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0709AB411C246911003A41F9 /* ToneBoards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ToneBoards.entitlements; sourceTree = "<group>"; };
+		070C2C2C1CD7CFBA0055D6FF /* volumefooter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = volumefooter.cpp; sourceTree = "<group>"; };
+		070C2C2D1CD7CFBA0055D6FF /* volumefooter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = volumefooter.hpp; sourceTree = "<group>"; };
+		07432F161C5C1E38000DB10E /* TBiconv1_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TBiconv1_128.png; sourceTree = "<group>"; };
+		07432F171C5C1E38000DB10E /* TBiconv1_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TBiconv1_256.png; sourceTree = "<group>"; };
+		07432F181C5C1E38000DB10E /* TBiconv1_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TBiconv1_512.png; sourceTree = "<group>"; };
+		07432F191C5C1E38000DB10E /* TBiconv1_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TBiconv1_1024.png; sourceTree = "<group>"; };
+		07972F1C1C77600200AFE018 /* FLAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FLAC.framework; sourceTree = "<group>"; };
+		07972F1D1C77600200AFE018 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = freetype.framework; sourceTree = "<group>"; };
+		07972F231C77601D00AFE018 /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ogg.framework; sourceTree = "<group>"; };
+		07972F241C77601D00AFE018 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenAL.framework; sourceTree = "<group>"; };
+		07972F291C77604700AFE018 /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbis.framework; sourceTree = "<group>"; };
+		07972F2A1C77604700AFE018 /* vorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbisenc.framework; sourceTree = "<group>"; };
+		07972F2B1C77604700AFE018 /* vorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbisfile.framework; sourceTree = "<group>"; };
+		07D97BB51C629856003ACE0A /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		07D97BB71C65385B003ACE0A /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		07D97BB81C65385B003ACE0A /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +99,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07972F201C77600200AFE018 /* freetype.framework in Frameworks */,
+				07972F1E1C77600200AFE018 /* FLAC.framework in Frameworks */,
+				07972F301C77604700AFE018 /* vorbisfile.framework in Frameworks */,
+				07972F2E1C77604700AFE018 /* vorbisenc.framework in Frameworks */,
+				07972F2C1C77604700AFE018 /* vorbis.framework in Frameworks */,
+				07972F251C77601D00AFE018 /* ogg.framework in Frameworks */,
+				07972F271C77601E00AFE018 /* OpenAL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +115,13 @@
 		0709AB041C24668B003A41F9 = {
 			isa = PBXGroup;
 			children = (
+				07972F291C77604700AFE018 /* vorbis.framework */,
+				07972F2A1C77604700AFE018 /* vorbisenc.framework */,
+				07972F2B1C77604700AFE018 /* vorbisfile.framework */,
+				07972F231C77601D00AFE018 /* ogg.framework */,
+				07972F241C77601D00AFE018 /* OpenAL.framework */,
+				07972F1C1C77600200AFE018 /* FLAC.framework */,
+				07972F1D1C77600200AFE018 /* freetype.framework */,
 				0709AB101C24668B003A41F9 /* ToneBoards */,
 				0709AB0F1C24668B003A41F9 /* Products */,
 			);
@@ -57,10 +138,18 @@
 		0709AB101C24668B003A41F9 /* ToneBoards */ = {
 			isa = PBXGroup;
 			children = (
+				0709AB411C246911003A41F9 /* ToneBoards.entitlements */,
+				0709AB291C2466EF003A41F9 /* main.mm */,
+				0709AB261C2466CD003A41F9 /* scrollbar.cpp */,
+				0709AB271C2466CD003A41F9 /* scrollbar.hpp */,
 				0709AB131C24668B003A41F9 /* ResourcePath.mm */,
 				0709AB151C24668B003A41F9 /* ResourcePath.hpp */,
-				0709AB161C24668B003A41F9 /* main.cpp */,
+				07D97BB81C65385B003ACE0A /* NSFileManager+DirectoryLocations.m */,
+				07D97BB71C65385B003ACE0A /* NSFileManager+DirectoryLocations.h */,
+				070C2C2C1CD7CFBA0055D6FF /* volumefooter.cpp */,
+				070C2C2D1CD7CFBA0055D6FF /* volumefooter.hpp */,
 				0709AB181C24668B003A41F9 /* Resources */,
+				0709AB3F1C246875003A41F9 /* Images.xcassets */,
 				0709AB111C24668B003A41F9 /* Supporting Files */,
 			);
 			path = ToneBoards;
@@ -77,10 +166,17 @@
 		0709AB181C24668B003A41F9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0709AB191C24668B003A41F9 /* cute_image.jpg */,
-				0709AB1B1C24668B003A41F9 /* nice_music.ogg */,
+				07432F161C5C1E38000DB10E /* TBiconv1_128.png */,
+				07432F171C5C1E38000DB10E /* TBiconv1_256.png */,
+				07432F181C5C1E38000DB10E /* TBiconv1_512.png */,
+				07432F191C5C1E38000DB10E /* TBiconv1_1024.png */,
+				0709AB3D1C2467E1003A41F9 /* numbers_2_notes.txt */,
+				0709AB391C2467C4003A41F9 /* empty_template_cfg_.txt */,
 				0709AB1D1C24668B003A41F9 /* sansation.ttf */,
-				0709AB1F1C24668B003A41F9 /* icon.png */,
+				0709AB3A1C2467C4003A41F9 /* graphic.png */,
+				07D97BB51C629856003ACE0A /* data.txt */,
+				0709AB2D1C246736003A41F9 /* sConfigFiles */,
+				0709AB2B1C246717003A41F9 /* TONESv10 */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -96,6 +192,7 @@
 				0709AB0A1C24668B003A41F9 /* Frameworks */,
 				0709AB0B1C24668B003A41F9 /* Resources */,
 				0709AB0C1C24668B003A41F9 /* ShellScript */,
+				07972F221C77600200AFE018 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -117,6 +214,12 @@
 				TargetAttributes = {
 					0709AB0D1C24668B003A41F9 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BM9EC6ZBD4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -142,10 +245,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0709AB201C24668B003A41F9 /* icon.png in Resources */,
+				07D97BB61C629856003ACE0A /* data.txt in Resources */,
+				0709AB3C1C2467C4003A41F9 /* graphic.png in Resources */,
+				0709AB3E1C2467E1003A41F9 /* numbers_2_notes.txt in Resources */,
+				0709AB3B1C2467C4003A41F9 /* empty_template_cfg_.txt in Resources */,
+				07432F1D1C5C1E38000DB10E /* TBiconv1_1024.png in Resources */,
+				0709AB2E1C246736003A41F9 /* sConfigFiles in Resources */,
+				07432F1A1C5C1E38000DB10E /* TBiconv1_128.png in Resources */,
+				07432F1C1C5C1E38000DB10E /* TBiconv1_512.png in Resources */,
+				0709AB2C1C246717003A41F9 /* TONESv10 in Resources */,
 				0709AB1E1C24668B003A41F9 /* sansation.ttf in Resources */,
-				0709AB1C1C24668B003A41F9 /* nice_music.ogg in Resources */,
-				0709AB1A1C24668B003A41F9 /* cute_image.jpg in Resources */,
+				0709AB401C246875003A41F9 /* Images.xcassets in Resources */,
+				07432F1B1C5C1E38000DB10E /* TBiconv1_256.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0709AB171C24668B003A41F9 /* main.cpp in Sources */,
+				0709AB281C2466CD003A41F9 /* scrollbar.cpp in Sources */,
+				07D97BB91C65385B003ACE0A /* NSFileManager+DirectoryLocations.m in Sources */,
+				070C2C2E1CD7CFBA0055D6FF /* volumefooter.cpp in Sources */,
 				0709AB141C24668B003A41F9 /* ResourcePath.mm in Sources */,
+				0709AB2A1C2466EF003A41F9 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,18 +391,62 @@
 		0709AB241C24668B003A41F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToneBoards/ToneBoards.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ToneBoards/ToneBoards-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
 			};
 			name = Debug;
 		};
 		0709AB251C24668B003A41F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToneBoards/ToneBoards.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ToneBoards/ToneBoards-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
 			};
 			name = Release;
 		};
@@ -311,6 +469,7 @@
 				0709AB251C24668B003A41F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,2 @@
+disregard: Welcome_Intro
+look in: /Users/you/Library/Containers/com.kipplebits-.ToneBoards/Data/Library/Application Support/ToneBoards
